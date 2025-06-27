@@ -1,0 +1,15 @@
+Brief Report
+Approach:
+Utilized Python with Requests and BeautifulSoup libraries for web scraping.
+Extracted meta title, meta description, social media links, tech stack, and payment gateways information from websites.
+Stored the scraped data into a MySQL database via Data Wizard using the .csv file created in the python script.
+Challenges:
+Handling various HTTP errors and timeouts while scraping websites.
+Ensuring robustness in extracting data from dynamic websites.
+Configuring MySQL connection and handling database operations.
+Unstable servers creates unessary crashes, resulting in loss of data..
+
+Improvements:
+Implementing retry strategies for failed requests.
+Enhancing the scraping logic for better extraction of information.
+Adding error logging for better debugging.
